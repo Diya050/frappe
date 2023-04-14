@@ -1993,6 +1993,7 @@ def md_to_html(markdown_text: str) -> Optional["UnicodeWithAttrs"]:
 		"toc": None,
 		"highlightjs-lang": None,
 		"html-classes": {"table": "table table-bordered", "img": "screenshot"},
+		"mermaid": None,
 	}
 
 	try:
